@@ -2,6 +2,7 @@
 .textContent {
   margin: auto;
   margin-block-start: 15.625rem;
+  margin-block-start: calc(100vh - 60vh);
   max-inline-size: 64rem;
   text-align: center;
   display: inline-block;

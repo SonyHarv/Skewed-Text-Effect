@@ -8,3 +8,57 @@
   --baseFontFamily: "Kalam", cursive, arial, Helvetica;
   --textFont: bold 60px/7.5rem var(--baseFontFamily);
 }
+
+/* Responsive Design */
+
+@media screen and (max-width: 1000px) {
+  :root {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 937px) {
+  :root {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 862px) {
+  :root {
+    font-size: 12px;
+  }
+  .textContent span {
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 741px) {
+  :root {
+    font-size: 10px;
+  }
+  .textContent span {
+    font-size: 47px;
+  }
+}
+@media screen and (max-width: 625px) {
+  :root {
+    font-size: 8px;
+  }
+  .textContent span {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 500px) {
+  :root {
+    font-size: 6px;
+  }
+  .textContent span {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 380px) {
+  :root {
+    font-size: 4px;
+  }
+  .textContent span {
+    font-size: 20px;
+  }
+}
