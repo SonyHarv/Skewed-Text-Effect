@@ -1,5 +1,6 @@
+@import "./text-content.css";
 body {
-  background: var(--backgroundColor);
+  background: var(--backgroundBody);
   margin: 0;
   text-align: center;
 }

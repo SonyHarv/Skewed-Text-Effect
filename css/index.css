@@ -1,11 +1,10 @@
 @import "./body.css";
-@import "./text-content.css";
 :root {
   font-size: 16px;
   --gris1: #b5b5b5;
-  --gris2: #a5a5a5;
-  --white: #fff;
-  --backgroundColor: #ff90b3;
-  --baseFontFamily: arial, Helvetica;
-  --textFont: bold 2.5rem/7.5rem var(--baseFontFamily);
+  --gris2: #dcdcdc;
+  --backgroundTextContent: linear-gradient(to bottom, #bc4e9c, #f80759);
+  --backgroundBody: linear-gradient(to left, #000428, #004e92);
+  --baseFontFamily: "Kalam", cursive, arial, Helvetica;
+  --textFont: bold 60px/7.5rem var(--baseFontFamily);
 }
