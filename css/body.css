@@ -1,0 +1,5 @@
+body {
+  background: var(--backgroundColor);
+  margin: 0;
+  text-align: center;
+}

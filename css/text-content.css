@@ -1,0 +1,17 @@
+.textContent {
+  margin: auto;
+  margin-block-start: 15.625rem;
+  max-inline-size: 64rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.textContent span {
+  display: block;
+  float: left;
+  background: var(--white);
+  font: var(--textFont);
+  color: var(--gris2);
+  inline-size: 7.5rem;
+  block-size: 7.5rem;
+}

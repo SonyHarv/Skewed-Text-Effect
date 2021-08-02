@@ -1,3 +1,11 @@
-body {
-  background: #cbf4f7;
+@import "./body.css";
+@import "./text-content.css";
+:root {
+  font-size: 16px;
+  --gris1: #b5b5b5;
+  --gris2: #a5a5a5;
+  --white: #fff;
+  --backgroundColor: #ff90b3;
+  --baseFontFamily: arial, Helvetica;
+  --textFont: bold 2.5rem/7.5rem var(--baseFontFamily);
 }
